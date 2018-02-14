@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap Portfolio</title>
+
+    <link rel="icon" type="image/jpg" href=“icon”>
+
+        <!--Bootstrap links, CSS, JQUERY, JavaScript-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+    
+
+
+
+<body>
+
+    <div class="container">
+
+        <nav class="navbar navbar-default">
+
+
+                <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+
+
+                        <div class="navbar-brand">Tina Levkova</div>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                          <li><a href="index.html">About</a></li>
+                          <li><a href="contact.html">Contact</a></li>
+                          <li><a href="portfolio.html">Portfolio</a></li>                            
+                        </ul>
+                </div>
+        </nav>
+
+        <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">randoms</a></li>
+                <li><a href="contact.html">Contact infos</a></li>
+                <li><a href="portfolio.html"> someFolio</a></li>    
+
+
+        <div class="row">
+                <div class="col-sm-8" id="portfolio">
+                    <h2>Portfolio</h2>
+                    <hr>   
+                    <ul>
+                        <li>
+                            <a href="#"><img src="https://www.thesun.co.uk/wp-content/uploads/2017/10/nintchdbpict000359142075.jpg?strip=all&w=660" alt="Tina Levkova" id="bio-image">
+                                
+                                
+                                
+                                
+                            <div class="portLabel"> just bwaitng to hit me</div>   
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="data:image/jpeg;base64,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" height="110px"/> 
+                          
+                          
+                          
+                                <div class="portLabel">another ingith</div>
+                            </a>
+                        </li>
+                        <li>
+                            
+                            <a href="#"><img src="https://twitter.com/ironsidepc/status/718559627680575488" height="110px"/> 
+                            <div class="portLabel">the Game</div>
+                            </a>
+                        </li>
+                        
+                        
+                        </li>
+                    </ul>  
+                </div>
+
+
+                <div class="col-sm-4" id="connect">
+                        <h3>Connect with Me</h3>
+
+
+
+                        <hr>
+
+                        <a href="https://github.com/" target="_blank"><img src="https://github.com/" height="13"/>
+                        </a></a>
+                        <section id="contact-info">
+            
+                                <h2>Contact info</h2>
+                                <ul>
+                                    <li><strong>Email:</strong> <a href="#">kod4er@gmail.com</a>
+                                    <li><strong>GitHUb</strong> <a href="#">gut</a></li>
+                                    <li><storng>fdsfs</storng> <a href="#">cfdv</a></storng>
+                                
+                                    </ul>	
+                            </section>
+
+
+
+
+
+
+
+
+
+    <div class="container">
+
+        <div id="header">
+
+            <div class="header">header2
+                <!-- <header>head</header> -->
+
+            </div>
+            <br>
+            <!-- <nav>
+                <br>
+            </nav> -->
+
+            <div class="row">
+
+
+
+                <!-- </div>
+                   <nav>nav </nav>
+                               </div> -->
+
+                <div class="nav">nav </div>
+
+
+                <!-- <div class="two columns">v> -->
+            </div>
+
+            <!-- <div class="container"> -->
+            <!-- <div class="section">section -->
+            <!-- <br> -->
+            <!-- <div class="section">section -->
+            <!-- <div id="section">section</div> -->
+            <!-- <div class="section">sectionv> -->
+
+            <div class="container">
+                <div class="row">
+                    <div id="section">
+                        <div class="section">section √
+                            <div class="article">article
+                                <div class="miniheaders">
+
+                                    <h1> h1, </h1>
+                                    <h2> h2, </h2>
+                                    <h3> h3 </h3>
+                                </div>
+                                <p>p</p>
+
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="aside">aside -->
+
+
+            <div class="container" id="aside">
+
+                <div class="aside">aside
+
+
+                </div>
+
+
+                <br>
+                <div class="footer">footer
+
+                </div>
+
+
+
+
+</body>
+
+</html>
